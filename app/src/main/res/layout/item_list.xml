@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#00FFFFFF">
+
+            <TextView
+                android:id="@+id/tvTituloV"
+                android:layout_width="215dp"
+                android:layout_height="101dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginTop="52dp"
+                android:layout_marginEnd="1dp"
+                android:text="Título"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toStartOf="@+id/cbSeleccionadaV"
+                app:layout_constraintStart_toEndOf="@+id/ivPortadaV"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/ivPortadaV"
+                android:layout_width="96dp"
+                android:layout_height="91dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="52dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/default_cover" />
+
+            <TextView
+                android:id="@+id/tvArtistaV"
+                android:layout_width="369dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="8dp"
+                android:text="Artista"
+                android:textSize="16sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/tvTituloV" />
+
+            <CheckBox
+                android:id="@+id/cbSeleccionadaV"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_marginTop="60dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/tvNombre"
+        android:title="@string/strNombre"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/ivFoto"
+        android:icon="@mipmap/ic_launcher_foreground"
+        android:title="@string/strFoto"
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/btCerrarS"
+                android:title="@string/strCerrarS"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+
+    <item android:id="@+id/btMore"
+        android:icon="@drawable/menu"
+        android:title=""
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/btMusica"
+                android:icon="@drawable/carpeta"
+                android:title="@string/strMusica" />
+
+            <item
+                android:id="@+id/btVideo"
+                android:icon="@drawable/video"
+                android:title="@string/strVideo"/>
+        </menu>
+    </item>
+</menu>

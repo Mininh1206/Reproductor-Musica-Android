@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Reproductor</string>
+    <string name="strContraseña">Contraseña</string>
+    <string name="strNombre">Nombre</string>
+    <string name="strUsuario">Usuario</string>
+    <string name="strCrearCuenta">Crear cuenta</string>
+    <string name="strIniciarS">Iniciar sesión</string>
+    <string name="strFechaNac">Fecha de nacimiento</string>
+    <string name="strSexo">Sexo:</string>
+    <string name="strH">Hombre</string>
+    <string name="strM">Mujer</string>
+    <string name="strO">Otro</string>
+    <string name="strTitulo">Título</string>
+    <string name="strArtista">Artista</string>
+    <string name="strCerrarS">Cerrar sesión</string>
+    <string name="strVideo">Video</string>
+    <string name="strMusica">Musica</string>
+    <string name="strFoto">Foto</string>
+    <string name="strNombreC">Nombre Completo</string>
+    <string name="strCContraseña">Confirmar contraseña</string>
+</resources>
